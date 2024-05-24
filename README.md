@@ -1,22 +1,19 @@
 # Deep-networks-modern-approaches-Lab-3
 
 В работе была разработана свёрточная нейронная сеть, для классификации изображении цветов 5 клаcсов.
-В результате была разработана базовая модель CNN отработавшая на тестовом датасете с точностью 82.60:
+В результате была разработана базовая модель CNN отработавшая на тестовом датасете с точностью 83.50:
  
-![image](https://github.com/MEHovick/Deep-networks-modern-approaches-Lab-3/assets/52539883/938b0091-40f7-4ccf-9d63-4cd7f30e7372)
+![image](https://github.com/MEHovick/Deep-networks-modern-approaches-Lab-3/assets/52539883/1946fe10-b46a-48cb-8589-9e42375ff5d5)
 
-
-И улучшенная с точностью 65.30 %, видно что точность меньше но тут весь нюанс в том что у себя подключить видеокарту я не могу, коллаб тоже вечность ведет обучения, поэтому моего терпения хватило ровно на 10 итераций, если была бы возможность запуска на более чем 10 итераций, думаю точность была бы выше:
-![image](https://github.com/MEHovick/Deep-networks-modern-approaches-Lab-3/assets/52539883/fd605ffd-b421-45b3-9e8d-298448e93961)
-
+И улучшенная с точностью 87.20 %:
+![image](https://github.com/MEHovick/Deep-networks-modern-approaches-Lab-3/assets/52539883/79e4dc37-596b-4ad9-bc7f-5601e0b38b2a)
 
 Помимо точности были посчитаны и другие метрики:
 
-Precision: 0.83
+Precision: 0.88
 
-Recall: 0.83
+Recall: 0.87
 
 Confusion Matrix:
 
-![image](https://github.com/MEHovick/Deep-networks-modern-approaches-Lab-3/assets/52539883/369fcf4b-8fbf-4fd7-ab5d-655243f4595d)
-
+![image](https://github.com/MEHovick/Deep-networks-modern-approaches-Lab-3/assets/52539883/ea6b0ab2-1ba4-43ec-9abf-8e680a537ba6)
